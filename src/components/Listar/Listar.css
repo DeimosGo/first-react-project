@@ -1,0 +1,43 @@
+.container__lista{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.lista{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 400px;
+    list-style: none;
+    padding: 0;
+    max-height: 60vh;
+    overflow-y: scroll;
+    margin:auto;
+    text-decoration: none;
+}
+
+.lista::-webkit-scrollbar {
+    width: 6px;
+}
+
+  /* Track */
+.lista::-webkit-scrollbar-track {
+    background: rgba(164, 164, 164, 0.1);
+}
+
+  /* Handle */
+.lista::-webkit-scrollbar-thumb {
+    background: rgba(81, 112, 146, 0.5);
+}
+
+  /* Handle on hover */
+.lista::-webkit-scrollbar-thumb:hover {
+    background: rgba(81, 112, 146, 0.8);
+}
+
+@media (max-width: 800px) {
+    .lista{
+        width: 90%;
+    }
+}

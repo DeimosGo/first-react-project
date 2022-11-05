@@ -1,0 +1,20 @@
+.loading__item {
+  margin-top: 4px;
+  width: 90%;
+  height: 70px;
+  background: rgb(189, 189, 189);
+  background: linear-gradient(90deg, rgba(255, 255, 255 , 0.6) 0%, rgba(205, 205, 205, 0.6) 60%, rgba(255, 255, 255 , 0.6) 100%);
+  background-size: 300% 100%;
+  margin-bottom: 12px;
+  border-radius: 12px;
+  animation: load__animation 0.5s infinite ease alternate-reverse;
+}
+
+@keyframes load__animation {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}

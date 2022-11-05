@@ -1,0 +1,26 @@
+.empty__item {
+  width: 90%;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  border-radius: 12px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: white;
+}
+
+.instruction {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.buttonShow {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border-radius: 24px;
+  border: 0;
+  background-color: #2689F2;
+  color: white;
+  font-weight: bolder;
+}

@@ -1,0 +1,65 @@
+.item{
+    width: 90%;
+    height: 70px;
+    padding-left: 12px;
+    padding-right: 12px;
+    display: flex;
+    margin-bottom: 12px;
+    border-radius: 12px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255 , 0.6);
+}
+.iconoCheckDone{
+    color: #41B76C;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.iconoCheck{
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+    transition: all 200ms;
+    transform: rotateZ(10deg);
+}
+
+.iconoCheck:hover{
+    transform: scale(1.2);
+    color: #41B76C;
+}
+
+.iconoDelete{
+    color: rgba(255, 98, 98 , 0.8);
+    font-size: 20px;
+    transition: all 150ms;
+}
+
+.iconoDelete:hover{
+    color: rgba(255, 0, 0, 1);
+    transform: translateY(-2px)
+}
+
+.botonCheck{
+    border: 0;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .item{
+        height: fit-content;
+    }
+}
+p {
+    cursor: default;
+}
+
+.text--item {
+    text-decoration: line-through;
+}
+
+.item--done{
+    background-color: rgba(255, 255, 255 , 0.3);
+}
