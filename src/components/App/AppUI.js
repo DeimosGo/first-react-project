@@ -10,7 +10,7 @@ import { CreateTodoForm } from "../CreateTodoForm";
 import { Loading } from "../Loading";
 import { EmptyList } from "../EmptyList";
 const AppUI = () => {
-  const { error, loading, searchedTodos, completeTodo, onDelete, openModal, setOpenModal, tareas } =
+  const { error, loading, searchedTodos, completeTodo, onDelete, openModal, setOpenModal } =
     React.useContext(TodoContext);
     return (
       <React.Fragment>
